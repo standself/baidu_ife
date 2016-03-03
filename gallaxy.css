@@ -1,0 +1,112 @@
+a{
+	text-decoration: none;
+}
+a:hover, li:hover{
+	border-bottom: 1px solid blue;
+}
+/*下面是瀑布布局*/
+.waterfall{
+	max-width: 980px;
+	height: 100%;
+	margin:0px auto;
+	background-color: rgb(222,238,238);
+	padding-top: 20px;
+}
+.waterfall-nav ul{
+	width: auto;
+}
+.waterfall-nav li{
+	float: left;
+	padding: 5px 10px 10px;
+	background-color: white;
+	margin-right: 1px;
+	border-bottom: 1px solid rgb(222,238,238);
+}
+.waterfall-main{
+	clear: left;
+	float: left;
+	padding: 10px 15px 15px 15px;
+	background-color: white;
+	margin-bottom: 10px;
+}
+.waterfall-main .maintext{
+	float: left;
+}
+.waterfall-main .box-big{
+	width: 330px;
+}
+.waterfall-main .box-small{
+	width: 165px;
+}
+.waterfall-main .maintext .box-small{
+	float: left;
+}
+.big{
+	width: 320px;
+	height: 200px;
+	margin: 10px 5px 0px 5px;
+	background-color: silver;
+	clear: right;
+}
+.small{
+	width: 155px;
+	margin: 10px 5px;
+	background: silver;
+}
+.waterfall-sidebar{
+	width: 280px;
+	height: auto;
+	float: left;
+	margin-left: 10px;
+	background-color: white;
+}
+.waterfall-search, .range{
+	width: 240px;
+	height: auto;
+	float: left;
+	margin: auto auto 10px 10px;
+	background-color: white;
+	padding: 20px;
+}
+.waterfall-search input{
+	width: 240px;
+	height: 50px;
+}
+.range > ul{
+	margin-top: 40px;
+}
+.range li{
+	margin: 20px auto 10px 20px;
+	list-style-type: decimal;
+}
+.range .range-flaser{
+	width: 100px;
+	height: 20px;
+	border: 1px solid black;
+	display: inline-block;
+	margin-right: 5px;
+}
+.range .range-flaser span{
+	width: 75%;
+	height: 20px;
+	padding: 0px;
+	margin: 0px;
+	background-color: blue;
+	display: inline-block;
+	vertical-align: center;
+}
+.range li > span{
+	display: inline;
+}
+.mainmore{
+	width: 690px;
+	height: 40px;
+	clear: left;
+	float：left;
+	background-color: white;
+}
+.mainmore div{
+	width: 150px;
+	margin: auto;
+	padding: 10px;
+}

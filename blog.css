@@ -1,0 +1,127 @@
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	background-color: black;
+	color: white;
+}
+
+/*这里是正文部分*/
+#main-wrapper{
+	width:980px;
+	margin:50px auto;
+}
+#main{
+	float: left;
+	width: 720px;
+	height: auto;
+}
+.mainunit{
+	width: 720px;
+	height: auto;
+	background-color: white;
+	padding: 10px;
+}
+.navigator{
+	float: left;
+	margin: 5px 0 0 -45px;
+	width: auto;
+	height: auto;
+}
+.navigator div{
+	width: auto;
+	height: auto;
+	background-color: blue;
+	border: 1px solid white;
+}
+.maintext{
+	width: 100%;
+	height: auto;
+	word-wrap: break-word;
+}
+#main > div{
+	margin-top: 20px; 
+}
+.mainunit .Dtime{
+	text-align: right;
+	margin-top: 20px;
+	color: silver;
+}
+#page{
+	width: auto;
+	text-align: center;
+	margin: 10px 50px;
+}
+#page div{
+	display: inline;
+	width: auto;
+	background-color: white;
+	color: black;
+	padding: 15px;
+	overflow: hidden;
+}
+/*这里是sidebar*/
+#sidebar{
+	float: left;
+	width: 220px;
+	height: auto;
+	margin:30px 0 0 30px
+}
+#search{
+	width: 100%;
+	padding: 10px;
+	display: inline;
+	background-color: white;
+}
+#search img{
+	width: 15px;
+	height: 15px;
+}
+#workstyle{
+	width: 100%;
+}
+#workstyle ul{
+	list-style-type: none;
+	margin-top: 20px;
+}
+#workstyle li{
+	width: auto;
+	border-left: 2px solid rgb(51,102,205);
+	margin-top: 1px;
+	padding: 15px;
+	background-color: white;
+}
+#calindary{
+	padding: 20px;
+	margin-top: 20px;
+	background-color: white;
+}
+#calindary table{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+#week td{
+	border-bottom: 1px solid silver;
+}
+#tags{
+	width: auto;
+	margin-top: 20px;
+	padding: 15px;
+	background-color: white;
+	color: black;
+	height: 150px;
+}
+#tags p{
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+#tags div{
+	width: auto;
+	float: left;
+	margin: 5px;
+}
+#empty{
+	clear: both;
+}
